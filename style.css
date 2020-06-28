@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+table {
+    border: 2px solid blue;
+    background: lightgray;
+    width: 80%;
+    border-spacing: 25px;
+  }
+  td {
+    padding: 25px;
+  }
+
+  thead tr td {
+    background: blueviolet;
+  }
+  tbody tr:nth-child(odd) {
+    background: yellow;
+  }
+  tbody tr:nth-child(even) {
+    background: skyblue;
+  }
+  tbody tr td:last-child {
+    background: skyblue;
+  }
+  tfoot tr td {
+    background: violet;
+  }
